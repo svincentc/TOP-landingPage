@@ -1,0 +1,56 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+
+/* typography & headers/fonts */
+
+h1 {
+    font-size: larger;
+    font-weight: light;
+
+}
+
+header{
+    background-color: #1F2937;
+    font-size: 24px;
+    overflow-x: hidden;
+    padding: 3px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+    border: none;
+    width: 100%;
+}
+
+.hero-basic-text{
+    color: whitesmoke;
+}
+
+/* hero classes */
+.hero{
+    background-color: #1F2937;
+    margin-top: -20px;
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.hero-txt-container{
+    display:flex;
+    flex-direction: column;
+}
+
+
+.employee-img{
+    height: 125px;
+    width: 125px;
+    border-radius: 10px;
+    border: black 2px;
+}
+
