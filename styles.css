@@ -1,21 +1,58 @@
 body{
     width: 100%;
     margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* typography & headers/fonts */
 
 h1 {
-    font-size: larger;
+    font-size: xx-large;
     font-weight: light;
+    font-style: italic;
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
 
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.quote-div{
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 3rem;
+}
+
+.quote-cred{
+    font-weight: 400;
+    margin-top: -5px;
 }
 
 header{
     background-color: #1F2937;
     font-size: 24px;
     overflow-x: hidden;
-    padding: 3px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    margin-right: 1rem;
 }
 
 footer {
@@ -26,6 +63,8 @@ footer {
     padding-bottom: 50px;
     border: none;
     width: 100%;
+    margin-top: auto;
+    
 }
 
 .hero-basic-text{
@@ -35,22 +74,92 @@ footer {
 /* hero classes */
 .hero{
     background-color: #1F2937;
-    margin-top: -20px;
+    padding: 3rem 1rem;
     color: whitesmoke;
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
+    align-items: space-evenly;
 }
 
 .hero-txt-container{
-    display:flex;
+    margin-top: 4rem;
     flex-direction: column;
+    align-content: flex-start;
+    width: 20%;
+    margin-right: 2rem;
 }
 
+.hero-btn{
+    height: 3rem;
+    width: 35%;
+    background-color: #3882F6;
+    color: white;
+    font-size: larger;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+
+.hero-img {
+    width: 25%;
+    height: 15%;
+    border-radius: 5px;
+}
 
 .employee-img{
-    height: 125px;
-    width: 125px;
+    height: 250px;
+    width: 250px;
     border-radius: 10px;
-    border: black 2px;
+    border: black 4px;
 }
 
+.team-mems-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.team-memb{
+    margin-right: 3rem;
+}
+
+.call-to-act-div{ 
+    width: 40%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+
+/* inline block will center this ? */
+}
+
+h4{
+    font-size: larger;
+    margin-bottom: 0px;
+}
+
+.cta-text{
+    line-height: .2rem;
+
+
+}
+
+.cta-btn{
+    background-color: #3882F6;
+    border: 3px solid white;
+    border-radius: 10px;
+    height: 3rem;
+    width: 15%;
+    color: white;
+
+}
+
+.cta-btn:hover{
+    cursor: pointer;
+}
